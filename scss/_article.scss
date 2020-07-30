@@ -5,6 +5,7 @@ body {
   
   article{
     float: left;
+    margin: 10px 20px;
   }
   
   header {
@@ -22,14 +23,18 @@ body {
   }
   
   .author-name-area{
-    font-family: "Sentinel", Helvetica,Arial,sans-serif;
     display: grid;
     grid-template-areas: "avatar author comments";
     gap: .25rem .1rem;
-    font-size: .7rem; 
-    color: #7a7a8c;
     margin: 10px 10px;
   }
+
+  .author-name-area p{
+    font-size: .7rem; 
+    color: #7a7a8c;
+    font-family: "Sentinel", Helvetica,Arial,sans-serif;
+  }
+
 
   .author-links{
     color: white;

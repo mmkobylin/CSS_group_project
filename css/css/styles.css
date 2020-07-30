@@ -3,7 +3,8 @@ body {
   background-color: black; }
 
 article {
-  float: left; }
+  float: left;
+  margin: 10px 20px; }
 
 header {
   display: inline-block;
@@ -17,13 +18,15 @@ h1 {
   font-size: 2.2rem; }
 
 .author-name-area {
-  font-family: "Sentinel", Helvetica,Arial,sans-serif;
   display: grid;
   grid-template-areas: "avatar author comments";
   gap: .25rem .1rem;
+  margin: 10px 10px; }
+
+.author-name-area p {
   font-size: .7rem;
   color: #7a7a8c;
-  margin: 10px 10px; }
+  font-family: "Sentinel", Helvetica,Arial,sans-serif; }
 
 .author-links {
   color: white;
