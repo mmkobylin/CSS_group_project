@@ -62,12 +62,6 @@ h1 {
 
 .author-name-area {
   display: flex;
-<<<<<<< HEAD
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-=======
->>>>>>> 9fc0754b3f904895f933d654e78a7d7025477462
   gap: .25rem 1rem;
   margin: 0 0 1.5rem;
   font-size: .7rem;
@@ -89,7 +83,7 @@ p {
   margin-bottom: 30px; }
 
 .article-link {
-  font-size: 72px;
+  font-size: 20px;
   background: -webkit-linear-gradient(#c90707, orange);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -113,12 +107,6 @@ p {
 .recent-articles-header {
   background-color: orange;
   border-radius: 20px;
-<<<<<<< HEAD
-  padding: 20px; }
-
-.recent-articles {
-  display: flex; }
-=======
   padding: 20px;
   width: 30%; }
 
@@ -127,4 +115,3 @@ p {
 
 .card-container {
   display: flex; }
->>>>>>> 9fc0754b3f904895f933d654e78a7d7025477462
