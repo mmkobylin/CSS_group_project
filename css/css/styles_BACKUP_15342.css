@@ -42,7 +42,7 @@ body {
   background-color: black; }
 
 article {
-  margin: 20px; }
+  margin: 40px 20px; }
 
 header {
   display: inline-block;
@@ -58,7 +58,7 @@ h1 {
   margin: 10px 10px; }
 
 .author-name-area {
-  display: flex;
+  display: flexbox;
   gap: .25rem 1rem;
   margin: 0 0 1.5rem; }
 
@@ -106,7 +106,4 @@ p {
   padding: 20px; }
 
 .recent-articles {
-  display: flex; }
-
-.card-container {
   display: flex; }

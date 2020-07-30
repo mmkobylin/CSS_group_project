@@ -1,5 +1,5 @@
-* {
-  /* HTML5 display-role reset for older browsers */ }
+* 
+  /* HTML5 display-role reset for older browsers */ 
   * html, * body, * div, * span, * applet, * object, * iframe,
   * h1, * h2, * h3, * h4, * h5, * h6, * p, * blockquote, * pre,
   * a, * abbr, * acronym, * address, * big, * cite, * code,
@@ -42,7 +42,7 @@ body {
   background-color: black; }
 
 article {
-  margin: 20px; }
+  margin: 40px 20px; }
 
 header {
   display: inline-block;
@@ -58,7 +58,7 @@ h1 {
   margin: 10px 10px; }
 
 .author-name-area {
-  display: flex;
+  display: flexbox;
   gap: .25rem 1rem;
   margin: 0 0 1.5rem; }
 
@@ -102,11 +102,4 @@ p {
 
 .recent-articles-header {
   background-color: orange;
-  border-radius: 20px;
-  padding: 20px; }
-
-.recent-articles {
-  display: flex; }
-
-.card-container {
-  display: flex; }
+  border-radius: 20px; }
