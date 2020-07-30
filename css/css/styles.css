@@ -111,13 +111,18 @@ p {
   padding: .2rem .2rem; }
 
 .recent-articles-header {
-  background-color: orange;
+  background: -webkit-linear-gradient(#ff8a00, #e52e71);
   border-radius: 20px;
   padding: 20px;
   width: 30%; }
 
 .recent-articles {
-  display: flex; }
+  display: flex;
+  height: 30vw; }
+
+.article-card {
+  background-color: #17141d;
+  border-radius: 5px; }
 
 .card-container {
   display: flex; }
