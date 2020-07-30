@@ -42,7 +42,6 @@ body {
   background-color: black; }
 
 article {
-  float: left;
   margin: 40px 20px; }
 
 header {
@@ -59,10 +58,9 @@ h1 {
   margin: 10px 10px; }
 
 .author-name-area {
-  display: grid;
-  grid-template-areas: "avatar author comments";
-  gap: .2rem;
-  margin: 20px 10px; }
+  display: flexbox;
+  gap: .25rem 1rem;
+  margin: 0 0 1.5rem; }
 
 .author-name-area p {
   font-size: .7rem;
@@ -101,3 +99,7 @@ p {
   font-weight: 700;
   border-radius: 2rem;
   border: 3px solid #28242f; }
+
+.recent-articles-header {
+  background-color: orange;
+  border-radius: 20px; }

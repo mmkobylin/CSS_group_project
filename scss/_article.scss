@@ -8,7 +8,7 @@ body {
 
   
   article{
-    float: left;
+    // float: left;
     margin: 40px 20px;
    
 
@@ -31,10 +31,15 @@ body {
   }
   
   .author-name-area{
-    display: grid;
-    grid-template-areas: "avatar author comments";
-    gap: .2rem ;
-    margin: 20px 10px;
+    display: flexbox;
+    
+    // display: grid;
+    // grid-template-areas: "avatar author comments";
+    // grid-template-columns: 80px min-content min-content;
+    // align-items: center;
+    
+    gap: .25rem 1rem;
+    margin: 0 0 1.5rem;
    
    
   }
