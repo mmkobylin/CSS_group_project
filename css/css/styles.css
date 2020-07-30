@@ -62,8 +62,6 @@ h1 {
 
 .author-name-area {
   display: flex;
-  gap: .25rem 1rem;
-  margin: 0 0 1.5rem;
   font-size: .7rem;
   color: #7a7a8c;
   font-family: "Sentinel", Helvetica,Arial,sans-serif;
@@ -89,7 +87,7 @@ p {
   -webkit-text-fill-color: transparent;
   text-decoration: underline;
   text-decoration-color: orange;
-  margin-bottom: 30px; }
+  margin-bottom: 5px; }
 
 .chris-picture {
   border-radius: 100%;
