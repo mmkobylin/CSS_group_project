@@ -1,3 +1,5 @@
- h1 {
-     background-color: red;
- }
+// Imported scss files for page elements
+@import 'article.scss'; 
+@import 'cards.scss'; 
+@import 'footer.scss'; 
+@import 'header.scss'; 
