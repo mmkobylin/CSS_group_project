@@ -7,7 +7,7 @@
     <header class="site-header" id="site-header">
         <div class="logo">
             <a href="/">
-                <div class="screen-reader-text">CSS-Tricks</div>
+                <div class="screen-reader-text"><span>* </span>CSS-Tricks</div>
                     <svg class="icon-logo-star" width="35px" height="35px">
                         <use xlink:href="#icon-logo-star"></use>
                     </svg>
@@ -29,7 +29,14 @@
                     <li>Books</li>
                     <li>Account</li>
                 </ul>
-        
+            <input type="search" required="" name="s" id="search-input" class="search-field" placeholder="e.g. flexbox" value="">
+            <button type="submit" class="button">
+                <span class="screen-reader-text">Search</span>
+                <svg class="icon-search" width="20px" height="20px">
+                <use xlink:href="#icon-search"></use>
+                </svg>
+            </button>
+        </div>
     </header>
 
     <body>

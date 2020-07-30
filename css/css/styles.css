@@ -114,5 +114,7 @@ header {
     display: inline;
     color: white;
     margin-left: 2rem; }
-  header span {
-    color: white; }
+
+span {
+  color: orange;
+  font-size: 24px; }
