@@ -87,6 +87,8 @@ p {
   background: -webkit-linear-gradient(#c90707, orange);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: orange;
   margin-bottom: 30px; }
 
 .chris-picture {
