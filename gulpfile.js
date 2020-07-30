@@ -5,7 +5,7 @@ let sass = require('gulp-sass');
 
 
 gulp.task('minify-css', () => {
-    return gulp.src('css/styles.css')
+    return gulp.src('./css/css/styles.css')
       .pipe(cleanCSS({compatibility: 'ie8'}))
       .pipe(rename({suffix: '.min'}))
       .pipe(gulp.dest('./css/'));
