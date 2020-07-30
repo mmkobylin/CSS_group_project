@@ -1,22 +1,36 @@
 body {
     box-sizing: border-box;
     background-color: black; }
+
+  
+  article{
+    float: left;
+  }
   
   header {
-    display: inline-block; }
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+   }
+
+    
+
+    
   
   h1 {
     color: white;
     font-family: "Sentinel", Helvetica,Arial,sans-serif;
     font-weight: 900;
-    font-size: 18px; }
+    font-size: 2.2rem; 
+  }
   
   .author-name-area{
     font-family: "Sentinel", Helvetica,Arial,sans-serif;
     display: grid;
     grid-template-areas: "avatar author comments";
+    gap: .25rem .1rem;
     font-size: .7rem; 
-    color: white;
+    color: #7a7a8c;
   }
 
   .author-links{
@@ -27,11 +41,22 @@ body {
   }
 
   p{
+    display:block;
     color:white;
     font-size: 18px;
+    width: 50rem;
+    
 
   }
 
   .article-link{
     color: orange;
+  }
+
+  .chris-picture{
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+    margin: 5px 2px;
+    
   }
