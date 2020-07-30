@@ -13,7 +13,8 @@ h1 {
 
 .author-name-area {
   font-family: "Sentinel", Helvetica,Arial,sans-serif;
-  display: inline-block;
+  display: grid;
+  grid-template-areas: "avatar author comments";
   font-size: .7rem;
   color: white; }
 
