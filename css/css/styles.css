@@ -105,3 +105,6 @@ p {
 
 .recent-articles {
   display: flex; }
+
+.card-container {
+  display: flex; }
