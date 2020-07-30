@@ -103,11 +103,11 @@ p {
 .recent-articles-header {
   background-color: orange;
   border-radius: 20px;
-  padding: 20px; }
+  padding: 20px;
+  width: 30%; }
 
 .recent-articles {
   display: flex; }
 
 .card-container {
-  display: flex;
-  width: 30%; }
+  display: flex; }
