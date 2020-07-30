@@ -109,4 +109,5 @@ p {
   display: flex; }
 
 .card-container {
-  display: flex; }
+  display: flex;
+  width: 30%; }
