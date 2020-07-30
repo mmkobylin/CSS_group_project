@@ -1,11 +1,14 @@
 body {
     box-sizing: border-box;
+    display:block;
     background-color: black; }
 
   
   article{
     float: left;
     margin: 10px 20px;
+   
+
   }
   
   header {
@@ -25,14 +28,18 @@ body {
   .author-name-area{
     display: grid;
     grid-template-areas: "avatar author comments";
-    gap: .25rem .1rem;
+    gap: 7rem ;
     margin: 10px 10px;
+   
+   
   }
 
   .author-name-area p{
     font-size: .7rem; 
     color: #7a7a8c;
     font-family: "Sentinel", Helvetica,Arial,sans-serif;
+    margin: 10px 5px;
+    padding: 5px 5px;
   }
 
 
