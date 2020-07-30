@@ -42,7 +42,8 @@ body {
   background-color: black; }
 
 article {
-  margin: 20px; }
+  margin: 20px 30px;
+  font-family: "Sentinel",Arial, Helvetica,sans-serif; }
 
 header {
   display: inline-block;
@@ -52,7 +53,6 @@ header {
 
 h1 {
   color: white;
-  font-family: "Sentinel", Helvetica,Arial,sans-serif;
   font-weight: 900;
   font-size: 2.2rem;
   margin: 10px 10px; }
@@ -62,13 +62,8 @@ h1 {
 
 .author-name-area {
   display: flex;
-  gap: .25rem 1rem;
-  margin: 0 0 1.5rem; }
-
-.author-name-area p {
   font-size: .7rem;
   color: #7a7a8c;
-  font-family: "Sentinel", Helvetica,Arial,sans-serif;
   margin: 10px 5px;
   padding: 5px 5px; }
 
@@ -81,15 +76,24 @@ p {
   display: block;
   color: white;
   font-size: 18px;
+  font-weight: 400;
   width: 50rem;
+  padding: 5px 5px;
   margin-bottom: 30px; }
 
 .article-link {
-  color: orange;
-  margin-bottom: 30px; }
+  font-size: 20px;
+  background: -webkit-linear-gradient(#c90707, orange);
+  -webkit-background-clip: text;
+  background-clip: none;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  margin-bottom: 15px; }
 
 .chris-picture {
   border-radius: 100%;
+  border-bottom: 5px solid orangered;
   height: 4rem;
   width: 4rem;
   margin: 5px 5px; }
@@ -98,10 +102,11 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   color: #7a7a8c;
-  font-size: .5rem;
+  font-size: .6rem;
   font-weight: 700;
   border-radius: 2rem;
-  border: 3px solid #28242f; }
+  border: 3px solid #28242f;
+  padding: .2rem .2rem; }
 
 .recent-articles-header {
   background-color: orange;
