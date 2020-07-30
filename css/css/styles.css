@@ -42,7 +42,7 @@ body {
   background-color: black; }
 
 article {
-  margin: 20px; }
+  margin: 20px 30px; }
 
 header {
   display: inline-block;
@@ -78,19 +78,22 @@ p {
   color: white;
   font-size: 18px;
   width: 50rem;
+  padding: 5px 5px;
   margin-bottom: 30px; }
 
 .article-link {
   font-size: 20px;
   background: -webkit-linear-gradient(#c90707, orange);
   -webkit-background-clip: text;
+  background-clip: none;
   -webkit-text-fill-color: transparent;
   text-decoration: underline;
   text-decoration-color: orange;
-  margin-bottom: 5px; }
+  margin-bottom: 8px; }
 
 .chris-picture {
   border-radius: 100%;
+  border: 2px solid orangered;
   height: 4rem;
   width: 4rem;
   margin: 5px 5px; }
@@ -99,7 +102,7 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   color: #7a7a8c;
-  font-size: .5rem;
+  font-size: .7rem;
   font-weight: 700;
   border-radius: 2rem;
   border: 3px solid #28242f; }
