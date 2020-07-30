@@ -57,11 +57,13 @@ h1 {
   font-size: 2.2rem;
   margin: 10px 10px; }
 
-.author-name {
-  width: 20vw; }
+time {
+  color: #7a7a8c; }
 
 .author-name-area {
   display: flex;
+  justify-content: space-around;
+  width: 40vw;
   font-size: .7rem;
   color: #7a7a8c;
   margin: 10px 5px;
