@@ -11,7 +11,19 @@ body {
     font-weight: 900;
     font-size: 18px; }
   
-  .author-name-area {
+  .author-name-area{
     font-family: "Sentinel", Helvetica,Arial,sans-serif;
     display: inline-block;
-    font-size: .7rem; }
+    font-size: .7rem; 
+    color: white;
+  }
+
+  p{
+    color:white;
+    font-size: 18px;
+
+  }
+
+  .article-link{
+    color: orange;
+  }
