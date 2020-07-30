@@ -1,5 +1,5 @@
-* 
-  /* HTML5 display-role reset for older browsers */ 
+* {
+  /* HTML5 display-role reset for older browsers */ }
   * html, * body, * div, * span, * applet, * object, * iframe,
   * h1, * h2, * h3, * h4, * h5, * h6, * p, * blockquote, * pre,
   * a, * abbr, * acronym, * address, * big, * cite, * code,
@@ -58,11 +58,12 @@ h1 {
   margin: 10px 10px; }
 
 .author-name-area {
-  display: flexbox;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: .25rem 1rem;
-  margin: 0 0 1.5rem; }
-
-.author-name-area p {
+  margin: 0 0 1.5rem;
   font-size: .7rem;
   color: #7a7a8c;
   font-family: "Sentinel", Helvetica,Arial,sans-serif;
@@ -82,7 +83,10 @@ p {
   margin-bottom: 30px; }
 
 .article-link {
-  color: orange;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#c90707, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 30px; }
 
 .chris-picture {
@@ -102,4 +106,8 @@ p {
 
 .recent-articles-header {
   background-color: orange;
-  border-radius: 20px; }
+  border-radius: 20px;
+  padding: 20px; }
+
+.recent-articles {
+  display: flex; }

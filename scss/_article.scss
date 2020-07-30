@@ -31,8 +31,12 @@ body {
   }
   
   .author-name-area{
-    display: flexbox;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
     // display: grid;
     // grid-template-areas: "avatar author comments";
     // grid-template-columns: 80px min-content min-content;
@@ -40,17 +44,15 @@ body {
     
     gap: .25rem 1rem;
     margin: 0 0 1.5rem;
-   
-   
-  }
-
-  .author-name-area p{
-    font-size: .7rem; 
+   font-size: .7rem; 
     color: #7a7a8c;
     font-family: "Sentinel", Helvetica,Arial,sans-serif;
     margin: 10px 5px;
     padding: 5px 5px;
+   
   }
+  
+  
 
 
   .author-links{
@@ -71,7 +73,11 @@ body {
   }
 
   .article-link{
-    color: orange;
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(201, 7, 7), rgb(255,165,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   
     margin-bottom: 30px;
   }
 
