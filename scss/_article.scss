@@ -7,6 +7,10 @@ body {
   
   article{
     margin: 20px 30px;
+    font-family: "Sentinel",Arial, Helvetica,sans-serif;
+    
+    
+    
   }
   
 
@@ -20,7 +24,6 @@ body {
 
    h1 {
     color: white;
-    font-family: "Sentinel", Helvetica,Arial,sans-serif;
     font-weight: 900;
     font-size: 2.2rem; 
     margin: 10px 10px;
@@ -34,8 +37,9 @@ body {
     display: flex;
    
     font-size: .7rem; 
-    color: #7a7a8c;
-    font-family: "Sentinel", Helvetica,Arial,sans-serif;
+    color: #7a7a8c;   
+    
+ 
     margin: 10px 5px;
     padding: 5px 5px;
    
@@ -55,6 +59,7 @@ body {
     display:block;
     color:white;
     font-size: 18px;
+    font-weight: 400;
     width: 50rem;
     padding: 5px 5px;
     margin-bottom: 30px;
@@ -75,7 +80,7 @@ body {
 
   .chris-picture{
     border-radius: 100%;
-    border-bottom: 5px solid orangered;
+    border-bottom: 5px solid orangered;;
     height: 4rem;
     width: 4rem;
     margin: 5px 5px;
@@ -86,9 +91,10 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #7a7a8c;
-    font-size: .7rem;
+    font-size: .6rem;
     font-weight: 700;
     border-radius: 2rem;
     border: 3px solid #28242f;
+    padding: .2rem .2rem;
    
  }
