@@ -1,0 +1,61 @@
+body {
+  box-sizing: border-box;
+  display: block;
+  background-color: black; }
+
+article {
+  float: left;
+  margin: 10px 20px; }
+
+header {
+  display: inline-block;
+  color: white;
+  font-size: 18px; }
+
+h1 {
+  color: white;
+  font-family: "Sentinel", Helvetica,Arial,sans-serif;
+  font-weight: 900;
+  font-size: 2.2rem; }
+
+.author-name-area {
+  display: grid;
+  grid-template-areas: "avatar author comments";
+  gap: 7rem;
+  margin: 10px 10px; }
+
+.author-name-area p {
+  font-size: .7rem;
+  color: #7a7a8c;
+  font-family: "Sentinel", Helvetica,Arial,sans-serif;
+  margin: 10px 5px;
+  padding: 5px 5px; }
+
+.author-links {
+  color: white;
+  text-decoration: none;
+  font-size: .7rem; }
+
+p {
+  display: block;
+  color: white;
+  font-size: 18px;
+  width: 50rem; }
+
+.article-link {
+  color: orange; }
+
+.chris-picture {
+  border-radius: 100%;
+  height: 4rem;
+  width: 4rem;
+  margin: 5px 5px; }
+
+.tags a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7a7a8c;
+  font-size: .5rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  border: 3px solid #28242f; }
