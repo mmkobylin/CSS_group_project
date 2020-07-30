@@ -9,7 +9,7 @@ body {
   
   article{
     // float: left;
-    margin: 40px 20px;
+    margin: 20px;
    
 
   }
@@ -29,14 +29,14 @@ body {
     font-size: 2.2rem; 
     margin: 10px 10px;
   }
+
+  .author-name {
+    width: 20vw;
+  }
   
   .author-name-area{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-
-
+    
     // display: grid;
     // grid-template-areas: "avatar author comments";
     // grid-template-columns: 80px min-content min-content;
@@ -75,8 +75,8 @@ body {
   .article-link{
     font-size: 72px;
   background: -webkit-linear-gradient(rgb(201, 7, 7), rgb(255,165,0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
    
     margin-bottom: 30px;
   }

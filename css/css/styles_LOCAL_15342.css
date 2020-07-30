@@ -42,34 +42,27 @@ body {
   background-color: black; }
 
 article {
-  margin: 20px; }
+  float: left;
+  margin: 10px 20px; }
 
 header {
   display: inline-block;
   color: white;
-  font-size: 18px;
-  padding: 10px 10px; }
+  font-size: 18px; }
 
 h1 {
   color: white;
   font-family: "Sentinel", Helvetica,Arial,sans-serif;
   font-weight: 900;
-  font-size: 2.2rem;
-  margin: 10px 10px; }
-
-.author-name {
-  width: 20vw; }
+  font-size: 2.2rem; }
 
 .author-name-area {
-  display: flex;
-<<<<<<< HEAD
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-=======
->>>>>>> 9fc0754b3f904895f933d654e78a7d7025477462
-  gap: .25rem 1rem;
-  margin: 0 0 1.5rem;
+  display: grid;
+  grid-template-areas: "avatar author comments";
+  gap: 7rem;
+  margin: 10px 10px; }
+
+.author-name-area p {
   font-size: .7rem;
   color: #7a7a8c;
   font-family: "Sentinel", Helvetica,Arial,sans-serif;
@@ -85,15 +78,10 @@ p {
   display: block;
   color: white;
   font-size: 18px;
-  width: 50rem;
-  margin-bottom: 30px; }
+  width: 50rem; }
 
 .article-link {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#c90707, orange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 30px; }
+  color: orange; }
 
 .chris-picture {
   border-radius: 100%;
@@ -112,19 +100,4 @@ p {
 
 .recent-articles-header {
   background-color: orange;
-  border-radius: 20px;
-<<<<<<< HEAD
-  padding: 20px; }
-
-.recent-articles {
-  display: flex; }
-=======
-  padding: 20px;
-  width: 30%; }
-
-.recent-articles {
-  display: flex; }
-
-.card-container {
-  display: flex; }
->>>>>>> 9fc0754b3f904895f933d654e78a7d7025477462
+  border-radius: 20px; }
