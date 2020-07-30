@@ -120,7 +120,8 @@ p {
 
 .article-card {
   background-color: #17141d;
-  border-radius: 5px; }
+  border-radius: 5px;
+  width: 20vw; }
 
 .card-container {
   display: flex; }
