@@ -1,22 +1,8 @@
-body{
-    box-sizing: border-box;
-    background-color: black;
-}
-
-header{
-    display:inline-block
-}
+// Imported scss files for page elements
+@import 'article.scss'; 
+@import 'cards.scss'; 
+@import 'footer.scss'; 
+@import 'header.scss'; 
 
 
-h1 {
-    color: white;
-    font-family: "Sentinel", Helvetica,Arial,sans-serif;
-    font-weight: 900;
-    font-size: 18px;
- }
 
- .author-name-area{
-    font-family: "Sentinel", Helvetica,Arial,sans-serif;
-     display: inline-block;
-     font-size:.7rem;
- }
