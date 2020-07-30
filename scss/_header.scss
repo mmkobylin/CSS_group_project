@@ -1,22 +1,26 @@
-<<<<<<< HEAD
-body {
-    background-color: black;
-}
 
 .screen-reader-text {
     color:white
 }
 
-ul li {
-    color: white;
-=======
 header {
     display: inline-block;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
+
+    
+    .main-sections li {
+        display: inline;
+        color: white;
+        margin-left: 2rem;
+    }
+    
+    span {
+        color:white;
+    }
+
    }
 
-ul li {
-    display: inline;
->>>>>>> master
-}
+
+
