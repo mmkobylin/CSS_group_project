@@ -64,20 +64,18 @@ body {
 
   .article-link{
     font-size: 20px;
-  background: -webkit-linear-gradient(rgb(201, 7, 7), rgb(255,165,0));
-   -webkit-background-clip: text;
-   background-clip: none;
-   -webkit-text-fill-color: transparent;
-   text-decoration: underline;
-   text-decoration-color: orange;
-   
-    margin-bottom: 8px;
+    background: -webkit-linear-gradient(rgb(201, 7, 7), rgb(255,165,0));
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    margin-bottom: 15px;
   }
 
   .chris-picture{
     border-radius: 100%;
-    border: 2px solid orangered;
-   
+    border-bottom: 5px solid orangered;
     height: 4rem;
     width: 4rem;
     margin: 5px 5px;

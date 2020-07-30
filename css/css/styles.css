@@ -89,11 +89,11 @@ p {
   -webkit-text-fill-color: transparent;
   text-decoration: underline;
   text-decoration-color: orange;
-  margin-bottom: 8px; }
+  margin-bottom: 15px; }
 
 .chris-picture {
   border-radius: 100%;
-  border: 2px solid orangered;
+  border-bottom: 5px solid orangered;
   height: 4rem;
   width: 4rem;
   margin: 5px 5px; }
