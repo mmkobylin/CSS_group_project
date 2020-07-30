@@ -7,6 +7,12 @@
 
 .recent-articles {
     display: flex;
+    height: 30vw;
+}
+
+.article-card {
+    background-color: #17141d;
+    border-radius: 5px;
 }
 
 .card-container {
