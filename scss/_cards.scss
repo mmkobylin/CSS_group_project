@@ -3,6 +3,9 @@
     border-radius: 20px;
     padding: 20px;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .recent-articles {
@@ -14,9 +17,11 @@
     background-color: #17141d;
     border-radius: 5px;
     width: 20vw;
+    margin: 0;
+    border: black solid 1px;
+    text-align: center;
 }
 
 .card-container {
     display: flex;
 }
-
