@@ -25,41 +25,30 @@ header {
    span {
     color:orange;
     font-size: 24px;
-    text
     }
 
-    .search-form input[type=search] {
-        background: #201c29;
-        border: 0;
-        min-width: 0;
-        flex: 1;
-        color: #fff;
-        padding: .5rem 1rem;
-        border-top-left-radius: 27px;
-        border-bottom-left-radius: 27px;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
+    // .search-form input[type=search] {
+    //     background: #201c29;
+    //     border: 0;
+    //     min-width: 0;
+    //     flex: 1;
+    //     color: #fff;
+    //     padding: .5rem 1rem;
+    //     border-top-left-radius: 27px;
+    //     border-bottom-left-radius: 27px;
+    //     border-top-right-radius: 0;
+    //     border-bottom-right-radius: 0;
+    // }
 
-    .button {
-        border-top: 1px solid #96d1f8;
-        background: #fc4a0f;
-        background: -webkit-gradient(linear, left top, left bottom, from(#ff08ef), to(#fc4a0f));
-        background: -webkit-linear-gradient(top, #ff08ef, #fc4a0f);
-        background: -moz-linear-gradient(top, #ff08ef, #fc4a0f);
-        background: -ms-linear-gradient(top, #ff08ef, #fc4a0f);
-        background: -o-linear-gradient(top, #ff08ef, #fc4a0f);
-        padding: 14.5px 29px;
-        -webkit-border-radius: 18px;
-        -moz-border-radius: 18px;
-        border-radius: 18px;
-        -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-        -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-        box-shadow: rgba(0,0,0,1) 0 1px 0;
-        text-shadow: rgba(0,0,0,.4) 0 1px 0;
-        color: white;
-        font-size: 17px;
-        font-family: Georgia, serif;
-        text-decoration: none;
-        vertical-align: middle;
-}
+    .site-header {
+        position: relative;
+        z-index: 1000;
+        display: flex;
+        background: #100e17;
+        border-bottom: 1px solid #201c29;
+    }
+
+    button {
+        -webkit-gradient(linear, left top, left bottom, from(#ff08ef), to(#fc4a0f));
+    }
 
