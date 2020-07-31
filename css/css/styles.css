@@ -134,5 +134,11 @@ p {
 .card-container {
   display: flex; }
 
-footer {
-  border-top: 4px solid orangered; }
+hr {
+  border: none;
+  border-radius: 5px;
+  height: 5px;
+  margin: 4rem 0;
+  width: 60%;
+  margin: 30px auto;
+  background-image: linear-gradient(90deg, #ff8a00, #e52e71); }
