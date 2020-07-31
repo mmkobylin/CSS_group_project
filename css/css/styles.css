@@ -133,3 +133,6 @@ p {
 
 .card-container {
   display: flex; }
+
+footer {
+  border-top: 4px solid orangered; }
