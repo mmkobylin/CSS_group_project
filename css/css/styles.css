@@ -103,7 +103,8 @@ p {
   border-radius: 20px; }
 
 .screen-reader-text {
-  color: white; }
+  color: white;
+  text-decoration: none; }
 
 header {
   display: inline-block;
@@ -114,7 +115,19 @@ header {
     display: inline;
     color: white;
     margin-left: 2rem; }
+  header .main-sections li:hover {
+    background-color: #7a7a8c; }
 
 span {
   color: orange;
   font-size: 24px; }
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+  display: flex;
+  background: #100e17;
+  border-bottom: 1px solid #201c29; }
+
+button {
+  background-color: orange; }
