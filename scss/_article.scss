@@ -1,46 +1,57 @@
 body {
     box-sizing: border-box;
-    display:block;
-    background-color: black; }
+    display: block;
+    background-color: black; 
+  }
 
   
   article{
-    float: left;
-    margin: 10px 20px;
-   
-
+    margin: 20px 30px;
+    font-family: "Sentinel",Arial, Helvetica,sans-serif;
+    
+    
+    
   }
   
+
   header {
     display: inline-block;
     color: white;
     font-size: 18px;
+    padding: 10px 10px;
    }
 
 
    h1 {
     color: white;
-    font-family: "Sentinel", Helvetica,Arial,sans-serif;
     font-weight: 900;
     font-size: 2.2rem; 
+    margin: 10px 10px;
   }
+  time{
+    color:#7a7a8c
+  }
+
+ 
   
   .author-name-area{
-    display: grid;
-    grid-template-areas: "avatar author comments";
-    gap: 7rem ;
-    margin: 10px 10px;
+    display: flex;
+    justify-content:space-around;
+    width: 40vw;
    
+
+   
+    font-size: .7rem; 
+    color: #7a7a8c;   
+    
+ 
+    margin: 10px 5px;
+    padding: 5px 5px;
    
   }
 
-  .author-name-area p{
-    font-size: .7rem; 
-    color: #7a7a8c;
-    font-family: "Sentinel", Helvetica,Arial,sans-serif;
-    margin: 10px 5px;
-    padding: 5px 5px;
-  }
+  
+  
 
 
   .author-links{
@@ -54,17 +65,28 @@ body {
     display:block;
     color:white;
     font-size: 18px;
+    font-weight: 400;
     width: 50rem;
+    padding: 5px 5px;
+    margin-bottom: 30px;
     
 
   }
 
   .article-link{
-    color: orange;
+    font-size: 20px;
+    background: -webkit-linear-gradient(rgb(201, 7, 7), rgb(255,165,0));
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    margin-bottom: 15px;
   }
 
   .chris-picture{
     border-radius: 100%;
+    border-bottom: 5px solid orangered;;
     height: 4rem;
     width: 4rem;
     margin: 5px 5px;
@@ -75,12 +97,10 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #7a7a8c;
-    font-size: .5rem;
+    font-size: .6rem;
     font-weight: 700;
     border-radius: 2rem;
     border: 3px solid #28242f;
-    
-
-
-
-  }
+    padding: .2rem .2rem;
+   
+ }

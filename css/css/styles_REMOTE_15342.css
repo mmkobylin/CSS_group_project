@@ -1,5 +1,5 @@
-* {
-  /* HTML5 display-role reset for older browsers */ }
+* 
+  /* HTML5 display-role reset for older browsers */ 
   * html, * body, * div, * span, * applet, * object, * iframe,
   * h1, * h2, * h3, * h4, * h5, * h6, * p, * blockquote, * pre,
   * a, * abbr, * acronym, * address, * big, * cite, * code,
@@ -42,8 +42,7 @@ body {
   background-color: black; }
 
 article {
-  margin: 20px 30px;
-  font-family: "Sentinel",Arial, Helvetica,sans-serif; }
+  margin: 40px 20px; }
 
 header {
   display: inline-block;
@@ -53,19 +52,20 @@ header {
 
 h1 {
   color: white;
+  font-family: "Sentinel", Helvetica,Arial,sans-serif;
   font-weight: 900;
   font-size: 2.2rem;
   margin: 10px 10px; }
 
-time {
-  color: #7a7a8c; }
-
 .author-name-area {
-  display: flex;
-  justify-content: space-around;
-  width: 40vw;
+  display: flexbox;
+  gap: .25rem 1rem;
+  margin: 0 0 1.5rem; }
+
+.author-name-area p {
   font-size: .7rem;
   color: #7a7a8c;
+  font-family: "Sentinel", Helvetica,Arial,sans-serif;
   margin: 10px 5px;
   padding: 5px 5px; }
 
@@ -78,24 +78,15 @@ p {
   display: block;
   color: white;
   font-size: 18px;
-  font-weight: 400;
   width: 50rem;
-  padding: 5px 5px;
   margin-bottom: 30px; }
 
 .article-link {
-  font-size: 20px;
-  background: -webkit-linear-gradient(#c90707, orange);
-  -webkit-background-clip: text;
-  background-clip: none;
-  -webkit-text-fill-color: transparent;
-  text-decoration: underline;
-  text-decoration-color: orange;
-  margin-bottom: 15px; }
+  color: orange;
+  margin-bottom: 30px; }
 
 .chris-picture {
   border-radius: 100%;
-  border-bottom: 5px solid orangered;
   height: 4rem;
   width: 4rem;
   margin: 5px 5px; }
@@ -104,55 +95,11 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   color: #7a7a8c;
-  font-size: .6rem;
+  font-size: .5rem;
   font-weight: 700;
   border-radius: 2rem;
-  border: 3px solid #28242f; 
-}
+  border: 3px solid #28242f; }
 
 .recent-articles-header {
   background-color: orange;
   border-radius: 20px; }
-
-.screen-reader-text {
-  color: white;
-  text-decoration: none; }
-
-header {
-  display: inline-block;
-  color: white;
-  font-size: 20px;
-  text-align: center; }
-  header .main-sections li {
-    display: inline;
-    color: white;
-    margin-left: 2rem; }
-  header .main-sections li:hover {
-    background-color: #7a7a8c; }
-
-span {
-  color: orange;
-  font-size: 24px; }
-
-.site-header .main-nav .main-sections > li > a {
-  font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: .7rem; }
-
-.site-header {
-  position: relative;
-  z-index: 1000;
-  display: flex;
-  background: #100e17;
-  border-bottom: 1px solid #201c29; }
-
-button {
-  border: 0;
-  border-top-right-radius: 27px;
-  border-bottom-right-radius: 27px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  background-image: linear-gradient(90deg, #ff8a00, #e52e71);
-  padding: 0 22px 0 18px; }
-
